@@ -1,8 +1,7 @@
+import React from "react";
+import axios from "axios";
 
-import Weather from "./Weather";
-import './App.css';
-
-function App() {
+export default function Weather() {
   let Weather = {
     city: "Montreal",
     date: "Thursday, March 5, 2021",
@@ -86,5 +85,3 @@ function App() {
     </div>
   );
 }
-
-export default App;
